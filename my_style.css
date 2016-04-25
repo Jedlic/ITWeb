@@ -1,0 +1,146 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	margin: 0px;
+}
+.inner {
+	min-width: 790px;
+	max-width: 980px;
+	margin: 0px auto;
+}
+.center {
+	margin:auto;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.shadow {
+	-webkit-box-shadow: -2px 17px 9px -14px rgba(0,0,0,0.48);
+	-moz-box-shadow: -2px 17px 9px -14px rgba(0,0,0,0.48);
+	box-shadow: -2px 17px 9px -14px rgba(0,0,0,0.48);
+}
+
+#header-top {
+	color: #666;
+    font-size: 65%;
+    padding: 5px;
+    top: 0;
+    height:12px;
+    background: #e5e5e5;
+    z-index:200;
+}
+#header-top, #header-menu, #header-nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    
+}
+#header-menu {
+    background: #ff6700;
+    height: 70px;
+    top: 20px;
+    z-index:100;
+}
+#header-nav {
+	color: #666;
+    padding: 5px;
+    top: 90px;
+    height:30px;
+    background: #e5e5e5;
+
+}
+#top-logo {
+    display: block;
+    margin: 10px 0;
+}
+#top-logo img {
+    max-height: 50px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu {
+	display:inline;
+}
+#main-menu li {
+	display:block;
+	float:left;
+	margin:0 14px;
+	}
+#main-menu li a {
+	display: block;
+    line-height: 24px;
+    height: 24px;
+    padding: 23px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+#main-menu li.active {
+	background:#d3d3d3;
+	border:0px solid white;
+}
+#main-menu li.active a {
+	color: #4f4f4f;
+}
+
+#main-menu li a:hover{
+	color:#4f4f4f;
+}
+
+#nav-menu {
+	display:inline;
+}
+#nav-menu li {
+	display:block;
+	float:left;
+	margin:0 14px;
+	}
+#nav-menu li a {
+	display: block;
+    line-height: 24px;
+    height: 30px;
+    padding: 1px 10px;
+    padding-top: 4px;
+    color:black;
+    text-decoration: none;
+}
+#nav-menu li.active {
+	background:#4f4f4f;
+	border:0px solid white;
+	border-radius: 4px 10px;
+}
+#nav-menu li.active a {
+	color: #d3d3d3;
+}
+#nav-menu li.active a:hover {
+	color: #d3d3d3;
+}
+
+#nav-menu li a:hover{
+	color:#4f4f4f;
+}
+
+#page {
+	padding-bottom:30px;
+	padding-top: 130px;
+	background:white;
+}
+
+footer {
+	height:30px;
+	width:100%;
+	background:#4f4f4f;
+	position:absolute;
+	bottom:-30px;
+	left: 0;
+	font-size:10pt;
+	
+}
+footer div {
+	padding:8px;
+}
